@@ -19,3 +19,4 @@ pyinstaller --onefile exploit.py
 cd dist
 ```
 `exploit.exe` file is in dist folder now you can use it.
+![a](https://github.com/dr3dd589/KeyStrike/a.png)
