@@ -18,5 +18,6 @@ You can generate it with `pyinstaller` just run this command:
 pyinstaller --onefile exploit.py
 cd dist
 ```
-`exploit.exe` file is in dist folder now you can use it.
+`exploit.exe` file is in dist folder now you can use it.<br>
+
 ![alt text](https://github.com/dr3dd589/KeyStrike/blob/master/a.png)
